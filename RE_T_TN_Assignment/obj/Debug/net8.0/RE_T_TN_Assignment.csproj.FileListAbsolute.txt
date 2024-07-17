@@ -1,0 +1,22 @@
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\RE_T_TN_Assignment\bin\Debug\net8.0\RE_T_TN_Assignment.deps.json
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\RE_T_TN_Assignment\bin\Debug\net8.0\RE_T_TN_Assignment.dll
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\RE_T_TN_Assignment\bin\Debug\net8.0\RE_T_TN_Assignment.pdb
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.AssemblyInfoInputs.cache
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.AssemblyInfo.cs
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.dll
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\refint\RE_T_TN_Assignment.dll
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.pdb
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\ref\RE_T_TN_Assignment.dll
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\bin\Debug\net8.0\RE_T_TN_Assignment.deps.json
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\bin\Debug\net8.0\RE_T_TN_Assignment.dll
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\bin\Debug\net8.0\RE_T_TN_Assignment.pdb
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.AssemblyInfo.cs
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.dll
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\refint\RE_T_TN_Assignment.dll
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.pdb
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\ref\RE_T_TN_Assignment.dll

@@ -1,0 +1,30 @@
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\bin\Debug\net8.0\PrajwalStack.deps.json
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\bin\Debug\net8.0\PrajwalStack.dll
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\bin\Debug\net8.0\PrajwalStack.pdb
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.AssemblyInfoInputs.cache
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.AssemblyInfo.cs
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.csproj.CoreCompileInputs.cache
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.dll
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\refint\PrajwalStack.dll
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.pdb
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\ref\PrajwalStack.dll
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\bin\Debug\net8.0\SharedLibrary.dll
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\bin\Debug\net8.0\SharedLibrary.pdb
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.csproj.AssemblyReference.cache
+C:\Users\prajwal.bhandari\Desktop\IOE Pulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalS.A9E418C4.Up2Date
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\bin\Debug\net8.0\PrajwalStack.deps.json
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\bin\Debug\net8.0\PrajwalStack.dll
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\bin\Debug\net8.0\PrajwalStack.pdb
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\bin\Debug\net8.0\SharedLibrary.dll
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\bin\Debug\net8.0\SharedLibrary.pdb
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.AssemblyInfo.cs
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalS.A9E418C4.Up2Date
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.dll
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\refint\PrajwalStack.dll
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\PrajwalStack.pdb
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\PrajwalStack\obj\Debug\net8.0\ref\PrajwalStack.dll
