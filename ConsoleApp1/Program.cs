@@ -1,17 +1,34 @@
 ﻿using PrajwalStack;
 using RE_T_TN_Assignment;
 using RE_T_TN_Assignment.NLPAssignmentTwo;
+using Utilities;
 
+string filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Practice C#/";
+filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Projects/PracticePython/ForTTS_2/preprocessed_data/NepaliSpeech copy/pitch";
+RenameFileName();
 //await NLPAssignmentOne();
 //NLPAssignmentTwo();
+//TokenizeNepaliWords();
 
 //CallStaticStack();
 //CallDynamicStack();
 
 //ExpressionConversion();
 
-int diskCount = 3;
-Hanoi.Tower(diskCount, "FirstTower", "SecondTower", "ThirdTower");
+//int diskCount = 3;
+//Hanoi.Tower(diskCount, "FirstTower", "SecondTower", "ThirdTower");
+
+void RenameFileName()
+{
+    Renamer renamer = new Renamer(filePath);
+    renamer.Rename("NepaliSpeech2", "NepaliSpeech");
+}
+void TokenizeNepaliWords()
+{
+    string file = $"{filePath}metadata.txt";
+    Tokenizer tokenizer = new Tokenizer();
+    tokenizer.TokenizeNepaliWords(file);
+}
 
 
 void ExpressionConversion()
@@ -122,22 +139,22 @@ void CallStaticStack()
 async Task NLPAssignmentOne()
 {
     RegularExpression regularExpression = new RegularExpression();
-    string filePath = $"C:/Users/prajwal.bhandari/Desktop/IOE Pulchowk/Modern NLP/Assignment1/";
-    string fileName = $"random_data.txt";
-    if (File.Exists($"{filePath}{fileName}"))
-    {
-        var fileContent = File.ReadAllText($"{filePath}{fileName}");
-        if (!string.IsNullOrEmpty(fileContent))
-        {
-            await regularExpression.ExtractPhoneNumbersAndEmail(fileContent, filePath);
-        }
-        else
-            Console.WriteLine("File is Empty");
-    }
+    string filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Practice C#/";
+    string fileName = $"metadata.txt";
+    //if (File.Exists($"{filePath}{fileName}"))
+    //{
+    //    var fileContent = File.ReadAllText($"{filePath}{fileName}");
+    //    if (!string.IsNullOrEmpty(fileContent))
+    //    {
+    //        await regularExpression.ExtractPhoneNumbersAndEmail(fileContent, filePath);
+    //    }
+    //    else
+    //        Console.WriteLine("File is Empty");
+    //}
 
 
     Tokenizer tokenizer = new Tokenizer();
-    string anEnglishTxtFile = $"ToTokenize.txt";
+    string anEnglishTxtFile = $"metadata.txt";
     if (File.Exists($"{filePath}{anEnglishTxtFile}"))
     {
         var fileContent = File.ReadAllText($"{filePath}{anEnglishTxtFile}");
@@ -148,6 +165,7 @@ async Task NLPAssignmentOne()
         }
         else
             Console.WriteLine("File is Empty");
+        await tokenizer.Cleaner(filePath);
     }
 }
 //Written in c# 10, Dotnet 8. No main function required.

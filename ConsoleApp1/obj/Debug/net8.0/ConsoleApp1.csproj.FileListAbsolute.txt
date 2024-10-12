@@ -50,3 +50,6 @@ C:\Users\USER\Desktop\IOEPulchowk\Practice C#\ConsoleApp1\obj\Debug\net8.0\refin
 C:\Users\USER\Desktop\IOEPulchowk\Practice C#\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
 C:\Users\USER\Desktop\IOEPulchowk\Practice C#\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\USER\Desktop\IOEPulchowk\Practice C#\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.sourcelink.json
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\ConsoleApp1\bin\Debug\net8.0\Utilities.dll
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\ConsoleApp1\bin\Debug\net8.0\Utilities.pdb

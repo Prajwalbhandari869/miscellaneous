@@ -65,6 +65,16 @@
         "runtime": {
           "bin/placeholder/SharedLibrary.dll": {}
         }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
       }
     }
   },
@@ -114,6 +124,11 @@
       "type": "project",
       "path": "../SharedLibrary/SharedLibrary.csproj",
       "msbuildProject": "../SharedLibrary/SharedLibrary.csproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Utilities/Utilities.csproj",
+      "msbuildProject": "../Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -121,7 +136,8 @@
       "PrajwalLinkedList >= 1.0.0",
       "PrajwalStack >= 1.0.0",
       "RE_T_TN_Assignment >= 1.0.0",
-      "System.Speech >= 8.0.0"
+      "System.Speech >= 8.0.0",
+      "Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -160,6 +176,9 @@
             },
             "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\RE_T_TN_Assignment\\RE_T_TN_Assignment.csproj": {
               "projectPath": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\RE_T_TN_Assignment\\RE_T_TN_Assignment.csproj"
+            },
+            "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\Utilities\\Utilities.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\Utilities\\Utilities.csproj"
             }
           }
         }

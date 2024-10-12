@@ -3,41 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\ConsoleApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E043D2A1-5DAE-42D7-B978-14E8E27D4244}|..\\Utilities\\Utilities.csproj|c:\\users\\user\\desktop\\ioepulchowk\\practice c#\\utilities\\renamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF2989F4-EC0D-4AFF-996E-757E7AD6C479}|ConsoleApp1.csproj|c:\\users\\user\\desktop\\ioepulchowk\\practice c#\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF2989F4-EC0D-4AFF-996E-757E7AD6C479}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\StackOperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF2989F4-EC0D-4AFF-996E-757E7AD6C479}|ConsoleApp1.csproj|c:\\users\\user\\desktop\\ioepulchowk\\practice c#\\consoleapp1\\consoleapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EF2989F4-EC0D-4AFF-996E-757E7AD6C479}|ConsoleApp1.csproj|solutionrelative:consoleapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentTwo\\EditDistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A4E2200-3DE8-482B-8EB8-462E7D56FDFE}|..\\RE_T_TN_Assignment\\RE_T_TN_Assignment.csproj|c:\\users\\user\\desktop\\ioepulchowk\\practice c#\\re_t_tn_assignment\\nlpassignmentone\\tokenizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\DynamicStack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\SharedLibrary\\Node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\StaticStack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\RegularExpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\DoublyLinkedList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\LinkedList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\CircularLinkedList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\Tokenizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\RE_T_TN_Assignment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{8A4E2200-3DE8-482B-8EB8-462E7D56FDFE}|..\\RE_T_TN_Assignment\\RE_T_TN_Assignment.csproj|c:\\users\\user\\desktop\\ioepulchowk\\practice c#\\re_t_tn_assignment\\nlpassignmentone\\regularexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,21 +27,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 28,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwBQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T11:16:27.127Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tokenizer.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\Tokenizer.cs",
+              "RelativeDocumentMoniker": "..\\RE_T_TN_Assignment\\NLPAssignmentOne\\Tokenizer.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\Tokenizer.cs",
+              "RelativeToolTip": "..\\RE_T_TN_Assignment\\NLPAssignmentOne\\Tokenizer.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAmwBUAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T03:10:56.669Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegularExpression.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\RegularExpression.cs",
+              "RelativeDocumentMoniker": "..\\RE_T_TN_Assignment\\NLPAssignmentOne\\RegularExpression.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\RegularExpression.cs",
+              "RelativeToolTip": "..\\RE_T_TN_Assignment\\NLPAssignmentOne\\RegularExpression.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T12:04:53.639Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -144,136 +150,45 @@
               "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StackOperations.cs",
-              "DocumentMoniker": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\StackOperations.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\StackOperations.cs",
-              "ToolTip": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\StackOperations.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\StackOperations.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAA0wGgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T11:34:23.087Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EditDistance.cs",
-              "DocumentMoniker": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentTwo\\EditDistance.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentTwo\\EditDistance.cs",
-              "ToolTip": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentTwo\\EditDistance.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentTwo\\EditDistance.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:08:05.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DynamicStack.cs",
-              "DocumentMoniker": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\DynamicStack.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\DynamicStack.cs",
-              "ToolTip": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\DynamicStack.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\DynamicStack.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAD4vxEAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T09:51:49.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Node.cs",
-              "DocumentMoniker": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\SharedLibrary\\Node.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\SharedLibrary\\Node.cs",
-              "ToolTip": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\SharedLibrary\\Node.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\SharedLibrary\\Node.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T09:50:01.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StaticStack.cs",
-              "DocumentMoniker": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\StaticStack.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\StaticStack.cs",
-              "ToolTip": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\StaticStack.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalStack\\StaticStack.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAWwCcAAABeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T07:43:19.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegularExpression.cs",
-              "DocumentMoniker": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\RegularExpression.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\RegularExpression.cs",
-              "ToolTip": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\RegularExpression.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\RegularExpression.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T09:20:15.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DoublyLinkedList.cs",
-              "DocumentMoniker": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\DoublyLinkedList.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\DoublyLinkedList.cs",
-              "ToolTip": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\DoublyLinkedList.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\DoublyLinkedList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T09:02:32.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LinkedList.cs",
-              "DocumentMoniker": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\LinkedList.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\LinkedList.cs",
-              "ToolTip": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\LinkedList.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\LinkedList.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwAcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T08:31:13.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CircularLinkedList.cs",
-              "DocumentMoniker": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\CircularLinkedList.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\CircularLinkedList.cs",
-              "ToolTip": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\CircularLinkedList.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\PrajwalLinkedLIst\\CircularLinkedList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T05:51:58.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Tokenizer.cs",
-              "DocumentMoniker": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\Tokenizer.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\Tokenizer.cs",
-              "ToolTip": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\Tokenizer.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\NLPAssignmentOne\\Tokenizer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T05:53:08.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RE_T_TN_Assignment.csproj",
-              "DocumentMoniker": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\RE_T_TN_Assignment.csproj",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\RE_T_TN_Assignment.csproj",
-              "ToolTip": "C:\\Users\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\RE_T_TN_Assignment.csproj",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\prajwal.bhandari\\Desktop\\IOE Pulchowk\\Practice C#\\RE_T_TN_Assignment\\RE_T_TN_Assignment.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ConsoleApp1.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\ConsoleApp1\\ConsoleApp1.csproj",
+              "RelativeDocumentMoniker": "ConsoleApp1.csproj",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\ConsoleApp1\\ConsoleApp1.csproj",
+              "RelativeToolTip": "ConsoleApp1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-04T12:01:38.607Z"
+              "WhenOpened": "2024-08-08T15:57:18.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Renamer.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\Utilities\\Renamer.cs",
+              "RelativeDocumentMoniker": "..\\Utilities\\Renamer.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\IOEPulchowk\\Practice C#\\Utilities\\Renamer.cs",
+              "RelativeToolTip": "..\\Utilities\\Renamer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:37:22.926Z",
+              "EditorCaption": ""
             }
           ]
         }

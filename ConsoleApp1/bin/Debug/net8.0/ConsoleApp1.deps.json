@@ -11,7 +11,8 @@
           "PrajwalLinkedList": "1.0.0",
           "PrajwalStack": "1.0.0",
           "RE_T_TN_Assignment": "1.0.0",
-          "System.Speech": "8.0.0"
+          "System.Speech": "8.0.0",
+          "Utilities": "1.0.0"
         },
         "runtime": {
           "ConsoleApp1.dll": {}
@@ -58,6 +59,11 @@
         "runtime": {
           "SharedLibrary.dll": {}
         }
+      },
+      "Utilities/1.0.0": {
+        "runtime": {
+          "Utilities.dll": {}
+        }
       }
     }
   },
@@ -90,6 +96,11 @@
       "sha512": ""
     },
     "SharedLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

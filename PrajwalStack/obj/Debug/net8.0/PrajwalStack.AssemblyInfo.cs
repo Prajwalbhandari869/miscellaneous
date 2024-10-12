@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrajwalStack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2c0563c68581248ce24bacee69c0d974085b236")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrajwalStack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrajwalStack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

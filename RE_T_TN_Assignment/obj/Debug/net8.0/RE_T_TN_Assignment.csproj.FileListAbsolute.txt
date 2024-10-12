@@ -20,3 +20,4 @@ C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.
 C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\refint\RE_T_TN_Assignment.dll
 C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.pdb
 C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\ref\RE_T_TN_Assignment.dll
+C:\Users\USER\Desktop\IOEPulchowk\Practice C#\RE_T_TN_Assignment\obj\Debug\net8.0\RE_T_TN_Assignment.sourcelink.json
