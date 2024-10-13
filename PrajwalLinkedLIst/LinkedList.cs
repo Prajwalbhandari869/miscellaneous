@@ -126,5 +126,9 @@ namespace PrajwalLinkedList
             }
             head = prevNode;
         }
+        public void ReverseListRecursive()
+        {
+            //See Later.
+        }
     }
 }

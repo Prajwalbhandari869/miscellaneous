@@ -1,11 +1,12 @@
-﻿using PrajwalStack;
+﻿using PrajwalLinkedList;
+using PrajwalStack;
 using RE_T_TN_Assignment;
 using RE_T_TN_Assignment.NLPAssignmentTwo;
 using Utilities;
 
 string filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Practice C#/";
 filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Projects/PracticePython/ForTTS_2/preprocessed_data/NepaliSpeech copy/pitch";
-RenameFileName();
+//RenameFileName();
 //await NLPAssignmentOne();
 //NLPAssignmentTwo();
 //TokenizeNepaliWords();
@@ -17,6 +18,8 @@ RenameFileName();
 
 //int diskCount = 3;
 //Hanoi.Tower(diskCount, "FirstTower", "SecondTower", "ThirdTower");
+
+TestLinkedList();
 
 void RenameFileName()
 {
@@ -89,7 +92,29 @@ void NLPAssignmentTwo()
     }
 }
 
-
+void TestLinkedList()
+{
+    try
+    {
+        DoublyLinkedList<int> doublyLinkedList = new DoublyLinkedList<int>();
+        doublyLinkedList.InsertAtEnd(0);
+        doublyLinkedList.InsertAtEnd(1);
+        doublyLinkedList.InsertAtEnd(2);
+        doublyLinkedList.InsertAtEnd(3);
+        doublyLinkedList.InsertAtEnd(4);
+        doublyLinkedList.InsertAtEnd(5);
+        doublyLinkedList.InsertAtBegining(-1);
+        doublyLinkedList.InsertAtEnd(-2);
+        doublyLinkedList.AddNode(0);
+        doublyLinkedList.AddNode(1);
+        doublyLinkedList.TraverseList();
+        doublyLinkedList.TraverseListReverse();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"{ex.Message}");
+    }
+}
 void CallDynamicStack()
 {
     try

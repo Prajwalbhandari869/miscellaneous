@@ -17,12 +17,12 @@ namespace PrajwalLinkedList
             Head = null;
             Tail = null;
         }
-        public void AddNode(T data) 
+        public void AddNode(T data)
         {
             Node<T> newNode = new Node<T>(data);
-            if (Head == null) 
+            if (Head == null)
             {
-                Head = newNode;                
+                Head = newNode;
             }
             else
             {
@@ -37,7 +37,7 @@ namespace PrajwalLinkedList
             Tail = newNode;
         }
         public void TraverseList()
-        { 
+        {
             Node<T>? currentNode = Head;
             while (currentNode != null)
             {
@@ -56,12 +56,11 @@ namespace PrajwalLinkedList
         }
         public void InsertAtBegining(T data)
         {
-            int[] newArray =  new int[5];
             Node<T> newNode = new(data);
             if (Head == null)
             {
-                Head= newNode;
-                Tail= newNode;
+                Head = newNode;
+                Tail = newNode;
             }
             else
             {
@@ -69,8 +68,44 @@ namespace PrajwalLinkedList
                 newNode.Next = temp;
                 temp.Prev = newNode;
                 Head = newNode;
-                Tail = temp;
             }
+        }
+        public void InsertAtEnd(T data)
+        {
+            Node<T> newNode = new Node<T>(data);
+            if (Tail == null)
+            {
+                Head = newNode;
+                Tail = newNode;
+            }
+            else
+            {
+                Node<T> temp = Tail;
+                temp.Next = newNode;
+                newNode.Prev = temp;
+                Tail = newNode;
+            }
+        }
+        public void DeleteAtBegining()
+        {
+            Node<T>? currentNode = Head;
+            if (currentNode == null)
+            {
+                throw new InvalidOperationException("Cannot delete empty list.");
+            }
+            Head = currentNode.Next;
+            if (Head != null)
+                Head.Prev = null;
+        }
+
+        public void DeleteAtEnd()
+        {
+            Node<T>? currentNode = Tail;
+            if (currentNode == null)
+            {
+                throw new InvalidOperationException();
+            }
+            Tail = currentNode.Prev;
         }
     }
 }

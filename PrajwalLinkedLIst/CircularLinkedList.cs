@@ -25,12 +25,15 @@ namespace PrajwalLinkedList
             else
             {
                 Node<T>? current = Head;
-                while (current.Next != Head)
+                while (current != null && current.Next != Head)
                 {
                     current = current.Next;
                 }
-                current.Next = newNode;
-                newNode.Next = Head;
+                if (current != null)
+                {
+                    current.Next = newNode;
+                    newNode.Next = Head;
+                }
             }
         }
         public void TraverseList()
