@@ -1,22 +1,62 @@
-﻿using PrajwalStack;
+﻿using PrajwalLinkedList;
+using PrajwalQueue;
+using PrajwalStack;
 using RE_T_TN_Assignment;
 using RE_T_TN_Assignment.NLPAssignmentTwo;
 using Utilities;
 
 string filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Practice C#/";
 filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Projects/PracticePython/ForTTS_2/preprocessed_data/NepaliSpeech copy/pitch";
-RenameFileName();
+//RenameFileName();
 //await NLPAssignmentOne();
 //NLPAssignmentTwo();
 //TokenizeNepaliWords();
 
 //CallStaticStack();
 //CallDynamicStack();
-
+//CallStaticQueue();
+//CallCircularQueue();
+CallDynamicCircularQueue();
 //ExpressionConversion();
 
 //int diskCount = 3;
 //Hanoi.Tower(diskCount, "FirstTower", "SecondTower", "ThirdTower");
+
+//TestLinkedList();
+void CallDynamicCircularQueue()
+{
+    DynamicCircularQueue<char> dynamicCircularQueue = new();
+    dynamicCircularQueue.Enqueue('a');
+    dynamicCircularQueue.Enqueue('b');
+    dynamicCircularQueue.Enqueue('c');
+    dynamicCircularQueue.Enqueue('c');
+    dynamicCircularQueue.Enqueue('d');
+    Console.WriteLine(dynamicCircularQueue.Dequeue());
+    Console.WriteLine(dynamicCircularQueue.Dequeue());
+    Console.WriteLine(dynamicCircularQueue.Dequeue());
+    Console.WriteLine(dynamicCircularQueue.Dequeue());
+    Console.WriteLine(dynamicCircularQueue.Dequeue());
+    Console.WriteLine(dynamicCircularQueue.Dequeue());
+}
+void CallCircularQueue()
+{
+    StaticCircularQueue<string> circularQueue = new StaticCircularQueue<string>(5);
+    circularQueue.Enqueue("Prajwal");
+    Console.WriteLine(circularQueue.Dequeue());
+}
+void CallDynamicQueue()
+{
+    DynamicQueue<char> dynamicQueue = new DynamicQueue<char>();
+    dynamicQueue.Enqueue('a');
+    Console.WriteLine(dynamicQueue.Dequeue());
+}
+
+void CallStaticQueue()
+{
+    StaticQueue<int> staticQueue = new StaticQueue<int>(10);
+    staticQueue.Enqueue(1);
+    Console.WriteLine(staticQueue.Dequeue());
+}
 
 void RenameFileName()
 {
@@ -89,7 +129,34 @@ void NLPAssignmentTwo()
     }
 }
 
-
+void TestLinkedList()
+{
+    try
+    {
+        DoublyLinkedList<int> doublyLinkedList = new DoublyLinkedList<int>();
+        doublyLinkedList.InsertAtEnd(0);
+        doublyLinkedList.InsertAtEnd(1);
+        doublyLinkedList.InsertAtEnd(2);
+        doublyLinkedList.InsertAtEnd(3);
+        doublyLinkedList.InsertAtEnd(4);
+        doublyLinkedList.InsertAtEnd(5);
+        doublyLinkedList.InsertAtBegining(-1);
+        doublyLinkedList.InsertAtEnd(-2);
+        doublyLinkedList.AddNode(0);
+        doublyLinkedList.AddNode(1);
+        doublyLinkedList.DeleteAtBegining();
+        doublyLinkedList.DeleteAtEnd();
+        doublyLinkedList.DeleteAtEnd();
+        doublyLinkedList.DeleteAtEnd();
+        doublyLinkedList.TraverseList();
+        Console.WriteLine();
+        doublyLinkedList.TraverseListReverse();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"{ex.Message}");
+    }
+}
 void CallDynamicStack()
 {
     try

@@ -15,14 +15,14 @@ namespace PrajwalStack
         /// <returns></returns>
         public string ConvertToPostfix(string infix)
         {
-            string result = "";
+            string postfix = "";
             DynamicStack<char> Stack = new DynamicStack<char>();
             foreach (char newChar in infix)
             {
                 if (char.IsLetter(newChar))
                 {
-                    result += newChar;
-                    result += ' ';
+                    postfix += newChar;
+                    postfix += ' ';
                 }
                 else if (newChar.Equals(')'))
                 {
@@ -36,8 +36,8 @@ namespace PrajwalStack
                         }
                         else
                         {
-                            result += popped;
-                            result += ' ';
+                            postfix += popped;
+                            postfix += ' ';
                         }
 
                     }
@@ -58,8 +58,8 @@ namespace PrajwalStack
                             if (this.Precedence(topData) >= this.Precedence(newChar) && Associativity(newChar).Equals('L'))
                             {
                                 char popped = Stack.Pop();
-                                result += popped;
-                                result += ' ';
+                                postfix += popped;
+                                postfix += ' ';
                             }
                             else
                             {
@@ -73,10 +73,10 @@ namespace PrajwalStack
             while (Stack.Size > 0)
             {
                 char popped = Stack.Pop();
-                result += popped.Equals('(') ? ' ' : popped;
-                result += ' ';
+                postfix += popped.Equals('(') ? ' ' : popped;
+                postfix += ' ';
             }
-            return result;
+            return postfix;
         }
         public double EvaluatePostfix(string postfix)
         {
