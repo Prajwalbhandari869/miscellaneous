@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PrajwalLinkedLIst\PrajwalLinkedList.csproj" />
+    <ProjectReference Include="..\PrajwalQueue\PrajwalQueue.csproj" />
     <ProjectReference Include="..\PrajwalStack\PrajwalStack.csproj" />
     <ProjectReference Include="..\RE_T_TN_Assignment\RE_T_TN_Assignment.csproj" />
     <ProjectReference Include="..\Utilities\Utilities.csproj" />

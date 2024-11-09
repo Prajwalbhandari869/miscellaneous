@@ -1,4 +1,5 @@
 ﻿using PrajwalLinkedList;
+using PrajwalQueue;
 using PrajwalStack;
 using RE_T_TN_Assignment;
 using RE_T_TN_Assignment.NLPAssignmentTwo;
@@ -13,13 +14,49 @@ filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Projects/PracticePython/ForTTS_2/
 
 //CallStaticStack();
 //CallDynamicStack();
-
+//CallStaticQueue();
+//CallCircularQueue();
+CallDynamicCircularQueue();
 //ExpressionConversion();
 
 //int diskCount = 3;
 //Hanoi.Tower(diskCount, "FirstTower", "SecondTower", "ThirdTower");
 
-TestLinkedList();
+//TestLinkedList();
+void CallDynamicCircularQueue()
+{
+    DynamicCircularQueue<char> dynamicCircularQueue = new();
+    dynamicCircularQueue.Enqueue('a');
+    dynamicCircularQueue.Enqueue('b');
+    dynamicCircularQueue.Enqueue('c');
+    dynamicCircularQueue.Enqueue('c');
+    dynamicCircularQueue.Enqueue('d');
+    Console.WriteLine(dynamicCircularQueue.Dequeue());
+    Console.WriteLine(dynamicCircularQueue.Dequeue());
+    Console.WriteLine(dynamicCircularQueue.Dequeue());
+    Console.WriteLine(dynamicCircularQueue.Dequeue());
+    Console.WriteLine(dynamicCircularQueue.Dequeue());
+    Console.WriteLine(dynamicCircularQueue.Dequeue());
+}
+void CallCircularQueue()
+{
+    StaticCircularQueue<string> circularQueue = new StaticCircularQueue<string>(5);
+    circularQueue.Enqueue("Prajwal");
+    Console.WriteLine(circularQueue.Dequeue());
+}
+void CallDynamicQueue()
+{
+    DynamicQueue<char> dynamicQueue = new DynamicQueue<char>();
+    dynamicQueue.Enqueue('a');
+    Console.WriteLine(dynamicQueue.Dequeue());
+}
+
+void CallStaticQueue()
+{
+    StaticQueue<int> staticQueue = new StaticQueue<int>(10);
+    staticQueue.Enqueue(1);
+    Console.WriteLine(staticQueue.Dequeue());
+}
 
 void RenameFileName()
 {
@@ -107,7 +144,12 @@ void TestLinkedList()
         doublyLinkedList.InsertAtEnd(-2);
         doublyLinkedList.AddNode(0);
         doublyLinkedList.AddNode(1);
+        doublyLinkedList.DeleteAtBegining();
+        doublyLinkedList.DeleteAtEnd();
+        doublyLinkedList.DeleteAtEnd();
+        doublyLinkedList.DeleteAtEnd();
         doublyLinkedList.TraverseList();
+        Console.WriteLine();
         doublyLinkedList.TraverseListReverse();
     }
     catch (Exception ex)

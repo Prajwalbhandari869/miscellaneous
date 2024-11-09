@@ -106,6 +106,8 @@ namespace PrajwalLinkedList
                 throw new InvalidOperationException();
             }
             Tail = currentNode.Prev;
+            if (Tail != null)
+                Tail.Next = null;
         }
     }
 }
