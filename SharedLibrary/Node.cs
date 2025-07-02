@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace SharedLibrary
 {
-    public class Node<T>
+    public class Node<T>(T data)
     {
-        public T? Data { get; set; }
-        public Node<T>? Next { get; set; }
-        public Node<T>? Prev { get; set; }
-        public Node(T data)
-        {
-            Data = data;
-            Next = null;
-            Prev = null;
-        } 
+        public T? Data { get; set; } = data;
+        public Node<T>? Next { get; set; } = null;
+        public Node<T>? Prev { get; set; } = null;
+    }
+    public class TreeNode<T>(T data)
+    {
+        public TreeNode<T>? Left { get; set; } = null;
+        public T Data { get; set; } = data;
+        public TreeNode<T>? Right { get; set; } = null;
+        public int Height { get; set; } = 1;
     }
 }

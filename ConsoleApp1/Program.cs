@@ -1,28 +1,91 @@
 ﻿using PrajwalLinkedList;
 using PrajwalQueue;
 using PrajwalStack;
+using PrajwalTree;
 using RE_T_TN_Assignment;
 using RE_T_TN_Assignment.NLPAssignmentTwo;
 using Utilities;
 
-string filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Practice C#/";
-filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Projects/PracticePython/ForTTS_2/preprocessed_data/NepaliSpeech copy/pitch";
+//string filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Practice C#/";
+string filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Practice C#/NepaliTokensPerLengthFirst.txt";
+//filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Projects/PracticePython/ForTTS_2/preprocessed_data/NepaliSpeech copy/pitch";
+string destinationPath = $"C:/Users/USER/Desktop/IOEPulchowk/Practice C#/NepaliSylla.txt";
 //RenameFileName();
 //await NLPAssignmentOne();
 //NLPAssignmentTwo();
 //TokenizeNepaliWords();
+//TokenizeWindowWise();
+//SortNepaliChars();
+CreateSyllabus();
 
 //CallStaticStack();
 //CallDynamicStack();
 //CallStaticQueue();
 //CallCircularQueue();
-CallDynamicCircularQueue();
-//ExpressionConversion();
+//CallDynamicCircularQueue();
+//CallBinaryTree();
+//CallAVLTree();
+//SplitAndRemoveSentense();
 
+//ExpressionConversion();
 //int diskCount = 3;
 //Hanoi.Tower(diskCount, "FirstTower", "SecondTower", "ThirdTower");
 
 //TestLinkedList();
+void CreateSyllabus()
+{
+    NepaliChars chars = new NepaliChars();
+    chars.CreateSyllabus(filePath,destinationPath);
+}
+void SortNepaliChars()
+{
+    NepaliChars chars = new NepaliChars();
+    chars.Sort(filePath);
+}
+void TokenizeWindowWise()
+{
+    Tokenizer tokenizer = new Tokenizer();
+    tokenizer.TokenizeEachWordWithWindow(filePath, 4);
+}
+void CallAVLTree()
+{
+    AVLTree<int> avlTree = new(21);
+    avlTree.Insert(26);
+    avlTree.Insert(30);
+    avlTree.Insert(9);
+    avlTree.Insert(4);
+    avlTree.Insert(14);
+    avlTree.Insert(28);
+    avlTree.Insert(18);
+    avlTree.Insert(15);
+    avlTree.Insert(10);
+    avlTree.Insert(2);
+    avlTree.Insert(3);
+    avlTree.Insert(7);
+    avlTree.InOrderTraverse();
+    Console.WriteLine();
+    avlTree.Delete(2);
+    avlTree.Delete(3);
+    avlTree.Delete(10);
+    avlTree.Delete(18);
+    avlTree.Delete(4);
+    avlTree.Delete(9);
+    avlTree.Delete(14);
+    avlTree.Delete(7);
+    avlTree.Delete(15);
+    avlTree.InOrderTraverse();
+
+}
+void CallBinaryTree()
+{
+    BinarySearchTree<string> binaryTree = new("Hanuman");
+    binaryTree.Delete("Egg");
+    binaryTree.TraverseInOrder();
+    Console.WriteLine();
+    binaryTree.TraversePreOrder();
+    Console.WriteLine();
+    binaryTree.TraversePostOrder();
+}
 void CallDynamicCircularQueue()
 {
     DynamicCircularQueue<char> dynamicCircularQueue = new();
@@ -61,13 +124,23 @@ void CallStaticQueue()
 void RenameFileName()
 {
     Renamer renamer = new Renamer(filePath);
-    renamer.Rename("NepaliSpeech2", "NepaliSpeech");
+    //renamer.Rename("NepaliSpeech2", "NepaliSpeech");
+    renamer.Rename();
 }
 void TokenizeNepaliWords()
 {
-    string file = $"{filePath}metadata.txt";
+    //string file = $"{filePath}metadata.txt";
+    string file = $"{filePath}";
     Tokenizer tokenizer = new Tokenizer();
     tokenizer.TokenizeNepaliWords(file);
+}
+
+void SplitAndRemoveSentense()
+{
+    //string file = $"{filePath}val1.txt";
+    string file = $"{filePath}";
+    SplitAndRemove remover = new SplitAndRemove();
+    remover.ReWrite(file);
 }
 
 
@@ -206,7 +279,7 @@ void CallStaticStack()
 async Task NLPAssignmentOne()
 {
     RegularExpression regularExpression = new RegularExpression();
-    string filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Practice C#/";
+    //string filePath = $"C:/Users/USER/Desktop/IOEPulchowk/Practice C#/";
     string fileName = $"metadata.txt";
     //if (File.Exists($"{filePath}{fileName}"))
     //{
@@ -222,17 +295,20 @@ async Task NLPAssignmentOne()
 
     Tokenizer tokenizer = new Tokenizer();
     string anEnglishTxtFile = $"metadata.txt";
-    if (File.Exists($"{filePath}{anEnglishTxtFile}"))
+    //if (File.Exists($"{filePath}{anEnglishTxtFile}"))
+    if (File.Exists($"{filePath}"))
     {
-        var fileContent = File.ReadAllText($"{filePath}{anEnglishTxtFile}");
-        if (!string.IsNullOrEmpty(fileContent))
-        {
-            await tokenizer.Mapper(fileContent, filePath);
-            await tokenizer.Reducer(filePath);
-        }
-        else
-            Console.WriteLine("File is Empty");
-        await tokenizer.Cleaner(filePath);
+        await tokenizer.Mapper(filePath);
+        //var fileContent = File.ReadAllText($"{filePath}{anEnglishTxtFile}");
+        //var fileContent = File.ReadAllText($"{filePath}");
+        //if (!string.IsNullOrEmpty(fileContent))
+        //{
+        //    await tokenizer.Mapper(fileContent, filePath);
+        //    await tokenizer.Reducer(filePath);
+        //}
+        //else
+        //    Console.WriteLine("File is Empty");
+        //await tokenizer.Cleaner(filePath);
     }
 }
 //Written in c# 10, Dotnet 8. No main function required.
